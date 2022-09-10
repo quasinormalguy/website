@@ -21,13 +21,13 @@ unsafe = true
 [params]
 #bannerFont = "fonts/mononoki"
 bannerFont = "/fonts/杨任东竹石体-Regular"
+
 description = """
 ### Hello! I am Swarnim.
 I am a PhD student who writes codes so solve on problems related to relativistic astrophysics. I work in the group of [Prof. Cosimo Bambi](https://cosimobambi.github.io) at Fudan University, Shanghai.  
 This is my personal website.
 """ #नमस्ते!\\
 
-env = "production" # for Google Analytics and DISQUS.
 favicon = "/img/thinker.png" 
 fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
 math = true # for introducing $KaTEX$
