@@ -1,14 +1,16 @@
 DefaultContentLanguage = "en"
 author = "Swarnim Shashank"
 baseURL = 'https://quasinormalguy.github.io/'
-copyright = "Copyright © 2022"
+#copyright = "Copyright © 2022"
+copyright = ""
 disqusShortname = "swarnim"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 hasCJKLanguage = true
 languageCode = "cn"
 theme = 'hugo-theme-tokiwa'
-title = 'Just a quasi-normal guy'
+#title = 'Just a (quasi) normal guy'
+title = "金月"
 
 [markup]
 [markup.highlight]
@@ -18,12 +20,16 @@ style = "monokailight"
 unsafe = true
 
 [params]
-bannerFont = "fonts/mononoki" 
+#bannerFont = "fonts/mononoki"
+bannerFont = "/fonts/杨任东竹石体-Regular"
 description = """
-Personal website of Swarnim.
-""" 
+### Hello! I am Swarnim.
+I am a PhD student who writes codes so solve on problems related to relativistic astrophysics. I work in the group of [Prof. Cosimo Bambi](https://cosimobambi.github.io) at Fudan University, Shanghai.  
+This is my personal website.
+""" #नमस्ते!\\
+
 env = "production" # for Google Analytics and DISQUS.
-favicon = "img/bh-disk.jpg" 
+favicon = "/img/thinker.png" 
 fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
 math = true # for introducing $KaTEX$
 useChineseFonts = true 
@@ -31,31 +37,34 @@ postDateFormat = "2006-1-2"
 
 [menu]
 # Shown in the side menu.
+
 [[menu.main]]
-identifier = "post"
-name = "Posts"
-url = "/post/"
+identifier = "research"
+name = "My Research"
+url = "/research/"
 weight = 1
 
 [[menu.main]]
-name = "Tags"
-url = "/tags/"
-weight = 2
-
-[[menu.main]]
-name = "Categories"
-url = "/categories/"
-weight = 2
-
-[[menu.main]]
 identifier = "about"
-name = "About"
+name = "About Me"
 url = "/about/"
+weight = 2
+
+[[menu.main]]
+identifier = "vita"
+name = "CV"
+url = "/vita/"
 weight = 3
+
+#[[menu.main]]
+#identifier = "post"
+#name = "blog"
+#url = "/post/"
+#weight = 4
 
 [social]
 github = "http://github.com/quasinormalguy"
-mail = "mailto:sshashank@fudan.edu.cn"
+mail = "mailto:swarnim@tuta.io"
 twitter = "http://twitter.com/quasinormalguy"
 
 [outputs]
