@@ -3,7 +3,6 @@ author = "Swarnim Shashank"
 baseURL = 'https://quasinormalguy.github.io/'
 #copyright = "Copyright © 2022"
 copyright = ""
-disqusShortname = "swarnim"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 hasCJKLanguage = true
