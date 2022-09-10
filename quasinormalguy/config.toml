@@ -1,5 +1,23 @@
+DefaultContentLanguage = "en"
+author = "Swarnim Shashank"
 baseURL = 'https://quasinormalguy.github.io/'
-languageCode = 'en-us'
-title = 'Quasi-normal guy'
-
+copyright = "Copyright © 2022"
+disqusShortname = "swarnim"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+hasCJKLanguage = true
+languageCode = "cn"
 theme = 'hugo-theme-tokiwa'
+title = 'Just a quasi-normal guy'
+
+[markup]
+[markup.highlight]
+style = "monokailight"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[social]
+github = "http://github.com/quasinormalguy"
+mail = "mailto:sshashank@fudan.edu.cn"
+twitter = "http://twitter.com/quasinormalguy"
