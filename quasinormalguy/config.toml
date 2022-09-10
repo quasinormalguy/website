@@ -17,7 +17,46 @@ style = "monokailight"
 [markup.goldmark.renderer]
 unsafe = true
 
+[params]
+bannerFont = "fonts/mononoki" 
+description = """
+Personal website of Swarnim.
+""" 
+env = "production" # for Google Analytics and DISQUS.
+favicon = "img/bh-disk.jpg" 
+fuse = true # for searchbox. "JSON" must added to output contents. See [outputs].
+math = true # for introducing $KaTEX$
+useChineseFonts = true 
+postDateFormat = "2006-1-2"
+
+[menu]
+# Shown in the side menu.
+[[menu.main]]
+identifier = "post"
+name = "Posts"
+url = "/post/"
+weight = 1
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "Categories"
+url = "/categories/"
+weight = 2
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
+
 [social]
 github = "http://github.com/quasinormalguy"
 mail = "mailto:sshashank@fudan.edu.cn"
 twitter = "http://twitter.com/quasinormalguy"
+
+[outputs]
+home = ["HTML", "JSON"]
