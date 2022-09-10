@@ -1,0 +1,7 @@
+[submodule "quasinormalguy/themes/hugo-theme-tokiwa"]
+	path = quasinormalguy/themes/hugo-theme-tokiwa
+	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
+[submodule "quasinormalguy/public"]
+	path = quasinormalguy/public
+	url = git@github.com:quasinormalguy/quasinormalguy.github.io.git
+	branch = main

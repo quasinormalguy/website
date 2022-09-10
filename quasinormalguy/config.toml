@@ -1,0 +1,5 @@
+baseURL = 'https://quasinormalguy.github.io/'
+languageCode = 'en-us'
+title = 'Quasi-normal guy'
+
+theme = 'hugo-theme-tokiwa'
