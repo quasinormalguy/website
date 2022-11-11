@@ -24,8 +24,10 @@ bannerFont = "/fonts/杨任东竹石体-Regular"
 
 description = """
 ### Hello! I am Swarnim.
-I am a PhD student who writes codes so solve on problems related to relativistic astrophysics. I work in the group of [Prof. Cosimo Bambi](https://cosimobambi.github.io) at Fudan University, Shanghai.  
+I am a PhD student who writes codes to solve problems related to relativistic astrophysics. I work in the group of [Prof. Cosimo Bambi](https://cosimobambi.github.io) at Fudan University, Shanghai.  
 This is my personal website.
+<br/><br/>
+![BH disk](/img/bh-disk.jpg)
 """ #नमस्ते!\\
 
 favicon = "/img/thinker.png" 

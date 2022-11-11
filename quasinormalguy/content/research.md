@@ -6,6 +6,8 @@ draft: false
 
 _only one liners atm, to be updated..._
 
+$ G_{\mu \nu} = 8 \pi T_{\mu \nu} $
+
 ### GRMHD simulations of accretion disks
 
 Using GRMHD code I carry out thin disk simulations of accretions disks around a
