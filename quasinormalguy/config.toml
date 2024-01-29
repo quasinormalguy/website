@@ -24,7 +24,7 @@ bannerFont = "/fonts/杨任东竹石体-Regular"
 
 description = """
 ### Hello! I am Swarnim.
-I am a PhD student who writes codes to solve problems related to relativistic astrophysics. I work in the group of [Prof. Cosimo Bambi](https://cosimobambi.github.io) at Fudan University, Shanghai.  
+I am a postdoc who writes codes to solve problems related to relativistic astrophysics. I work in the group of [Prof. Cosimo Bambi](https://cosimobambi.github.io) at Fudan University, Shanghai.  
 This is my personal website.
 <br/><br/>
 ![BH disk](/img/bh-disk.jpg)
@@ -66,7 +66,7 @@ weight = 3
 [social]
 github = "http://github.com/quasinormalguy"
 mail = "mailto:swarnim@tuta.io"
-twitter = "http://twitter.com/quasinormalguy"
+#twitter = "http://twitter.com/quasinormalguy"
 
 [outputs]
 home = ["HTML", "JSON"]

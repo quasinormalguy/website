@@ -12,8 +12,11 @@ _pdf incoming..._
 ### Contact
 Work e-mail: sshashank20-[at]-fudan-[dot]-edu-[dot]-cn
 
+### Positions
+* 2023 - present: Super-postdoctoral fellow, Department of Physics, Fudan University, Shanghai
+
 ### Education
-* 2020 - present: PhD in Theoretical Physics, [Fudan University](https://www.fudan.edu.cn/en/), Shanghai, China.
+* 2020 - 2023: PhD in Theoretical Physics, [Fudan University](https://www.fudan.edu.cn/en/), Shanghai, China.
 * 2014 - 2019: Integrated MSc (BS+MS), [UM-DAE-CEBS](https://www.cbs.ac.in), Mumbai, India.
 
 ### Publications
